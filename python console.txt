@@ -1,0 +1,20 @@
+py -m venv modules = crear carpeta modules.
+activate en la carpeta modules/scripts = para iniciar el modules en la consola(necesario para instalar dependencias).
+pip install pandas = instalar pandas.
+pip freeze = ver las dependecias.
+pip install matplotlib = instalando otra dependencia.
+.gitignore = van los archivos que va a ignorar el git al versionar.
+pip freeze > paquetes.txt = crea archivo txt con todas las dependencias.
+
+assets = carpeta de recursos estaticos dentro del programa
+data =  carpeta datos
+analysis = carpeta de analisis
+controllers = carpeta de javascript
+views = carpeta vistas de la app
+
+Tarea:
+crear nuevamente el proyecto, instalar las dependencias, congele las librerias y ignore las dependencias.
+crear una interfaz para dentro de 15 días.
+estudiar stand alone.
+entrar a animate.css
+buscar imagen minimo de 1920x1080
