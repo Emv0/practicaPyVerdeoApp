@@ -40,12 +40,17 @@
 .nav-bar{
     width: 100%;
     margin-top: 25px;
+    box-sizing: border-box;
 }
 
 .nav-bar > ul{
     display: flex;
     justify-content: space-around;
     padding: 0;
+}
+
+.nav-bar > ul > li{
+    padding: 5px;
 }
 
 .nav-bar > ul > li > a{
@@ -57,7 +62,9 @@
 }
 
 .nav-bar > ul > li > a:hover{
+    transition: 0.5s;
     opacity: 0; 
+    text-shadow: -5px 8px 3px rgb(255, 255, 255);
     animation: appearDisappear 1.5s infinite;
 }
 
@@ -74,10 +81,24 @@
     font-size: 35px;
     font-style: normal;
     opacity: 0; 
-    letter-spacing: 20px;
+    letter-spacing: 10px;
     animation: appearDisappear 1.5s infinite; 
 }
 
+
+.leaf-container{
+    display: flex;
+    justify-content: center;
+    position:absolute;
+    width: 100%;
+    top: 895.5px;
+    transform: rotate(225deg);
+    z-index: 1;
+}
+
+.leaf{
+    height: 60px;
+}
 
 @keyframes appearDisappear {
     0%, 100% {
