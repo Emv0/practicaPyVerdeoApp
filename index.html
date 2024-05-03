@@ -1,22 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BORIS</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Jersey+15&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Jersey+15&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jersey+15&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jersey+15&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./assets/styles/estilos.css">
 </head>
+
 <body>
 
     <header>
         <section class="banner">
             <nav class="nav_bar">
-                <ul >
+                <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Dashboard</a></li>
                     <li><a href="#">About us</a></li>
@@ -24,8 +31,12 @@
             </nav>
             <h2 class="page">Home</h2>
             <div class="title_subtitle-container">
-                <div class="title-container"><h1 class="title">BORIS</h1></div>
-                <div class="subtitle-container"><p id="typed-subtitle"class="subtitle"></p></div>
+                <div class="title-container">
+                    <h1 class="title">BORIS</h1>
+                </div>
+                <div class="subtitle-container">
+                    <p id="typed-subtitle" class="subtitle"></p>
+                </div>
             </div>
         </section>
     </header>
@@ -35,13 +46,27 @@
     <main>
         <section class="container_1">
             <div class="container_1-content">
-                <div>
-                    <h3>Verdeo app</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur velit impedit temporibus libero id laboriosam repellat veniam molestias rerum corrupti, dolores aspernatur maiores! Ducimus reprehenderit sunt soluta quae similique. Qui.</p>
-                    <button class="btn btn-primary">Ampliar resultados</button>
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./assets/img/medellin-2410762_1280.jpg" class="d-block carrousel-image" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/img/nature-3082832_1280.jpg" class="d-block  carrousel-image" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/img/barras-datos-brillantes-ascension-digital-matriz-binaria_770200-2360.jpg" class="d-block carrousel-image" alt="...">
+                        </div>
+                    </div>
                 </div>
-                <div>
-                    <img src="/assets/img/guayacanes.jpg" alt="guayacanes">
+                <div class="sobre-container">
+                    <h3>Sobre BORIS</h3>
+                    <p>Somos BORIS, una empresa colombiana, somos expertos comprometidos en análisis de los datos y soluciones inteligentes para la gestión
+                        socioambiental. Nuestra misión es desarrollar una base de registros que mejore el impacto humano
+                        en el medio ambiente y la sociedad. Colaboramos con diversos sectores para promover la
+                        sostenibilidad y el desarrollo responsable. Nos guían la transparencia, la ética y el deseo de
+                        construir un futuro mejor para todos.</p>
+                    <button class="btn btn-primary">Ampliar resultados</button>
                 </div>
             </div>
         </section>
@@ -49,15 +74,18 @@
     <footer>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
     <script>
         var typed = new Typed('#typed-subtitle', {
-            strings: ['BASE ORGANIZADA DE REGISTROS INTELIGENTES SOCIOAMBIENTALISTAS...','ORGANIZED BASE OF INTELLIGENT SOCIOENVIRONMENTALIST RECORDS...'],
+            strings: ['BASE ORGANIZADA DE REGISTROS INTELIGENTES SOCIOAMBIENTALISTAS...', 'ORGANIZED BASE OF INTELLIGENT SOCIOENVIRONMENTALIST RECORDS...'],
             typeSpeed: 20,
             cursorChar: '',
             backSpeed: 80,
-            loop:true
+            loop: true
         });
     </script>
 </body>
+
 </html>
